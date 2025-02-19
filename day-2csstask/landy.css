@@ -1,0 +1,91 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.navbar h1{
+    color: #2E186A;
+    cursor: pointer;
+    }
+.navbar-links{
+    display: flex;
+    align-items: center;
+    column-gap: 70px;
+}
+
+.navbar-links a{
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.navbar-links a:hover{
+  color: orange;
+}
+
+.navbar-links span{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    border: 2px solid #2E186A;
+    background-color: #2E186A;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-links span:hover{
+    background-color: orange;
+    border: 2px solid orange;
+
+}
+
+.section1{
+    display: flex;
+    /* column-gap: 40px; */
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.section1 > .sec1-info h1,p{
+    color:#18216D;
+    margin-left: 20%;
+    width: 70%;
+    
+}
+.section1 > .sec1-info h1{
+    font-size: 50px;
+}
+.sec1-btn{
+    display: flex;
+    color:#18216D;
+    margin-left: 20%;
+    box-shadow: 2px 2px 1 black;
+    column-gap: 20px;
+     
+}
+.sec1-btn > .btn1{
+    
+    border: #18216D 1px solid;
+    padding: 10px 30px;
+    background-color: #18216D;
+    color: white;
+    box-shadow: 1px 1px 0.5px black;
+}
+.sec1-btn > .btn2{
+    border: gray 1px solid;
+    padding: 10px 30px;
+    background-color: whitesmoke;
+    color:black;
+    box-shadow: 1px 1px 0.5px black;
+    
+}
+.sec1-btn > span:hover{
+    background-color:orangered;
+}
+
+.section1 > .img img{
+    margin-right: 60px;
+}
+
