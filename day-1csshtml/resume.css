@@ -1,0 +1,203 @@
+body{
+    background-color: lavender;
+    text-indent: 20px;
+    
+}
+
+
+.heading{
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 0px 2px #000000;
+    font-family: 'Times New Roman', Times, serif;
+    border: #000000;
+    line-height: 100px;
+
+}
+
+
+.name{
+    display: block;
+    font-size: xx-large;
+    text-shadow: 1px 0px 1px #000000;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-indent: 20px;
+    line-height: 0px;
+}
+
+.place{
+    display:block;
+    font-size: large;
+    text-shadow: 1px 0px 1px #000000;
+    text-transform: capitalize;
+    
+}
+
+.Mobile{
+    display: block;
+    font-size: large;
+    text-shadow: 0.5px 0px 0.5px #000000;
+    text-transform: capitalize;
+
+}
+
+.email{
+    display: block;
+    font-size: large;
+    text-shadow: 0.5px 0px 0.5px #000000;
+    text-transform:none;
+}
+
+.email a{
+    text-decoration: none;
+}
+
+.linkedin{
+    display: block;
+    font-size: large;
+    text-shadow: 0.5px 0px 0.5px #000000;
+    text-transform:none;
+}
+
+.linkedin a{
+    text-decoration: none;
+}
+
+.github{
+    display: block;
+    font-size: larger;
+    text-shadow: 0.5px 0px 0.5px #000000;
+    text-transform:none;
+}
+
+.github a{
+    text-decoration: none;
+}
+
+
+hr{
+    border-top: 2px solid #000000;
+    width: 100%;
+}
+
+.Professional-summary{
+   margin: auto;
+   width: 96%;
+   
+  padding: 10px;
+  text-indent: 0px;
+
+}
+.h2{
+    font-size: larger;
+    text-shadow: 0.5px 0px 0.5px #000000;
+    text-transform:none;
+    text-decoration: underline;
+
+}
+
+.Technical-skills{
+    font-size: larger;
+    text-shadow: 0.5px 0px 0.5px #000000;
+    text-transform:none;
+    text-decoration: underline;
+}
+
+
+.p2{
+   display:inline-block; 
+   font-size: medium;
+    text-shadow: 0.5px 0px 0.5px #000000;
+    text-transform:none;
+    text-indent: 0px;
+    line-height: 0px;
+}
+
+.fw{
+    display:inline-block; 
+    font-size: medium;
+     text-shadow: 0.5px 0px 0.5px #000000;
+     text-transform:none;
+     text-indent: 0px;
+     line-height: 0px;
+}
+.wt{
+    display:inline-block; 
+    font-size: medium;
+     text-shadow: 0.5px 0px 0.5px #000000;
+     text-transform:none;
+     text-indent: 0px;
+     line-height: 0px; 
+}
+
+.db{
+    display:inline-block; 
+    font-size: medium;
+     text-shadow: 0.5px 0px 0.5px #000000;
+     text-transform:none;
+     text-indent: 0px;
+     line-height: 0px; 
+}
+
+.tools{
+    display:inline-block; 
+    font-size: medium;
+     text-shadow: 0.5px 0px 0.5px #000000;
+     text-transform:none;
+     text-indent: 0px;
+     line-height: 0px; 
+}
+
+.edu{
+    font-size: larger;
+    text-shadow: 0.5px 0px 0.5px #000000;
+    text-transform:none; 
+    text-decoration: underline;
+}
+
+.degreename{
+    font-size: medium;
+    text-shadow: 0.5px 0px 0.5px #000000;
+}
+.clgname{
+    font-size: medium;
+    text-indent: 50px;
+}
+
+.minor{
+    font-size: medium;
+    text-shadow: 0.5px 0px 0.5px #000000;
+}
+.proj{
+    font-size:larger;
+    text-shadow: 0.5px 0px 0.5px #000000;
+    text-transform:none; 
+    text-decoration: underline;  
+}
+.projtitle{
+    font-size: medium;
+}
+
+.certi{
+    font-size:larger;
+    text-shadow: 0.5px 0px 0.5px #000000;
+    text-transform:none; 
+    text-decoration: underline; 
+}
+
+.cername{
+    font-size: medium;
+}
+
+.Achievements{
+    font-size:larger;
+    text-shadow: 0.5px 0px 0.5px #000000;
+    text-transform:none; 
+    text-decoration: underline; 
+}
+
+.go-to-home button{
+    background-color:blueviolet;
+}
