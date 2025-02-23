@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/html logo.png">
+    <title>Form Tags</title>
+</head>
+<body>
+    <center>
+        <h1>Login</h1>
+    <form method="get" action="loginsuccess.html" autocapitalize="off" autocomplete="off">
+        <input type="text" pattern="[a-zA-Z]{3,30}" placeholder="Enter Your Username/email" required>
+        <br>
+        <br>
+        <input type="password" pattern="(?.*[a-z])(?.*[A-Z])(?.*[0-9])(?.*[!@#$%^&*()_+:;,./]).{8,16}" minlength="3" maxlength="15" placeholder="Enter Your password"required>
+        <br>
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+        <a href="./forgetpassword.html">forgetpassword</a>
+        &nbsp;
+        <a href="./register.html">register here</a>
+
+    </form>
+    </center>
+    
+</body>
+</html>

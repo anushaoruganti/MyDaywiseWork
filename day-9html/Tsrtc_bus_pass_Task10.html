@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::TGSRTC BUS PASS::</title>
+</head>
+
+<body>
+    <form action="./Formsubmittedsuccessful.html" method="get">
+        <center>
+            <img src="./images/Ts Logo.jpeg" width="50" alt="TGSRTC_logo">
+            <h2>TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+            <h2>GENERAL BUS PASS APPLICATION</h2>
+        </center>
+        <fieldset>
+            <legend>
+                <h3>Application Details</h3>
+            </legend>
+    
+            <label>Name</label> &emsp;&emsp;&emsp;&nbsp;
+            <input type="text" name="name" pattern="[a-z][A-Z]{20}" required>
+            &emsp;&nbsp;
+    
+            <label>Fathers/Guardians Name</label>&emsp;&emsp;&emsp;&nbsp;
+            <input type="text" name="Fathers/Guardians Name" pattern="[a-z][A-Z]{20}" required>
+            <br><br>
+            <label>Date of Birth</label>&nbsp;&nbsp;
+            <input type="date" name="DateofBirth" min="2000-01-01" max="20010-01-01" title="Make sure ur age is 15-25"
+                required>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+            
+            <label>Gender</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+            <input type="radio" name="gender" value="male" required> Male
+            <input type="radio" name="gender" value="female" required> Female
+            <br><br>
+            <label>Age As no:</label>&emsp;&nbsp;
+            <input type="number" name="AgeAsNo" pattern="[0-9]{2}" min="15" max="25" title="Age should be b/w 15-25" >
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Aadhar No:</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="text" name="AadharNo" pattern="[0-9]{12} required">
+            <br><br>
+            <label>Whatsapp No</label>&nbsp;
+            <input type="text" name="Whatsapp" pattern="\+91[6789][0-9]{9}" title="Follow Indian Method" >
+            &emsp;&nbsp;&nbsp;
+            <label>E-mail Id</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+            <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]@(gmail\.com|yahoo\.com|outlook\.com)"required>
+            <br><br>
+            <label>Photo</label>&emsp;&emsp;&emsp;&nbsp;
+            <input type="file" name="photo">
+        </fieldset>
+        <fieldset>
+            <legend><h3>Residential Address Details</h3></legend>
+            <label>Applicant Address</label>&nbsp;
+            <textarea name="Applcant Address" required ></textarea>&nbsp;
+            <label>District</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <select required>
+                <option>Hyderabad</option>
+            </select>
+            <br><br>
+            <label>Mandal</label>&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <select required>
+                <option>Hyderabad</option>
+            </select>
+            &emsp;&emsp;&emsp;&emsp;&emsp;
+            <label>Village</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <select required>
+                <option>Hyderabad</option>
+            </select>
+            <br><br>
+            <label>Pincode</label>&emsp;&emsp;&emsp;&emsp;&nbsp;
+            <input name="pincode" type="text" pattern="[0-9]{7}" required>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Pass Type Details</h3></legend>
+            <label>City</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <select>
+                <option>Hyderabad</option>
+            </select>
+            <br><br>
+            <label>Pass Type</label>&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <select>
+                <option selected disabled>-----Select---- </option>
+                <option>GREATER PASS</option>
+                <option>GENERAL ORDINARY ROUTE PASS MTLY</option>
+                <option>GENERAL METRO EXPRESS ROUTE PASS MTLY</option>
+                <option>ORDINARY PASS</option>
+                <option>METRO EXPRESS PASS</option>
+                <option>METRO DELUXE PASS</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Mode Of Payment and Plan Collection</h3></legend>
+            <label>Payment Mode</label>&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;
+            <select>
+                <option>Select Payment Mode</option>
+                <option>Payment at Counter</option>
+            </select>
+            <br><br>
+            <label>Pass Delivery Mode</label>&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&nbsp;
+            <select>
+                <option>Select Pass Delivery Mode</option>
+                <option>At Counter</option>
+            </select>
+            <br><br>
+            <label>Counter at which you want ti collect</label>
+            <select>
+                <option>---Select--</option>
+                <option>RTC ABIDS--HYD[05/02/2025]</option>
+                <option>RTC AFZALGUNJ--HYD[05/02/2025]</option>
+                <option>RTC AIRPORT--HYD[05/02/2025]</option>
+            </select>
+        </fieldset>
+        <center>
+            <img src="./images/ss.png"><br><br>
+            <input name="otp" type="text" patten="tK8cuu" required><br><br>
+            <input type="submit" value="submit">
+        </center>
+        
+    </form>
+    
+
+</body>
+
+</html>

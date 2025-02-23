@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/html logo.png">
+    <title>Register-here</title>
+</head>
+
+<body>
+    <center>
+        <h1>Registration Form</h1>
+            <form method="get" action="./registrationsuccess.html" autocomplete="off">
+                <label for="Fname">First Name:</label>
+                <input type="text" id="Fname" name="FirstName" minlength="3" maxlength="25" placeholder="Eg:John" required>
+                <br><br>
+                <label for="Lname">Last Name:</label>
+                <input type="text" id="Lname"name="Last Name" minlength="3" maxlength="25" placeholder="Eg:Smith" required>
+                <br><br>
+                <label for="Username">UserName:</label>
+                <input type="text" id="Username" name="Username" minlength="3" maxlength="25" placeholder="Your Username" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"  placeholder="Eg:Smith123@gmail.com" required>
+                <br><br>
+                <label for="Mobileno">Mobileno:</label>
+                <input type="tel"id="Mobileno" name="MobileNumber" pattern="\+91[6789][0-9]{9}" placeholder="Eg:+919XXXXXXXX9" required>
+                <br><br>
+                <label for="password">NewPassword:</label>
+                <input type="password" id="password" name="password" pattern="(?.*[a-z])(?.*[A-Z])(?.*[0-9])(?.*[!@#$%^&*()_+:;,./]).{8,16}"  placeholder="Your password" required>
+                <br><br>
+                <label for="password">Confirm Your Password:</label>
+                <input type="password" id="password" name="password" pattern="(?.*[a-z])(?.*[A-Z])(?.*[0-9])(?.*[!@#$%^&*()_+:;,./]).{8,16}"  placeholder="Your password" required>
+                <br><br>
+                <label for="dob">Date Of Birth</label>
+                <input type="date" id="dob" name="DateofBirth" required>
+                <br><br>
+                <input type="submit" value="Register">
+                <br><br>
+                <a href="./formtags_Task10.html">Go Back To login</a>
+            </form>
+    </center>
+
+</body>
+
+</html>
